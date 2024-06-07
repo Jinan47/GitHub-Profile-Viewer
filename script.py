@@ -15,6 +15,5 @@ if __name__ == "__main__":
         print(f"Username: {user_info['login']}")
         print(f"Name: {user_info['name']}")
         print(f"Public Repos: {user_info['public_repos']}")
-        print(f"Private Repos: {user_info['private_repos']}")
     else:
         print("User not found.")
